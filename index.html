@@ -11,38 +11,58 @@
 </head>
 
 <body>
-    <main class="hero">
-
+    <div class="container mx-auto">
         <header class="header">
+            <img src="/assets/images/devgr.svg" class="logo" alt="Logo do meu Portifolio">
+
             <nav class="navbar">
-                <a href="#">Sobre</a>
-                <a>Tecnologias</a>
-                <a>Projetos</a>
-                <a>Contatos</a>
+                <a href="home">Home</a>
+                <a href="sobre">Sobre</a>
+                <a href="projects">Projetos</a>
+                <a href="contact">Contatos</a>
             </nav>
 
-            <!-- <img src="/assets/images/devgr.svg" alt="Logo do meu Portifolio"> -->
         </header>
 
-        <section class="text-2xl container mx-auto">
-            <p>Olá, sou GUILHERME RIBEIRO, Desenvolvedor BACKEND
+        <main class="hero">
+            <article class="mt-20">
+                <p class="text-2xl font-semibold text-white mb-9"> Olá! Eu sou o</p>
+
+                <h1 class="text-9xl font-bold text-(--primary) mb-9">Guilherme Ribeiro</h1>
+                <p class="text-4xl font-medium text-white mb-9">Desenvolvedor de Software</p>
+
+                <button class=" rounded-md p-4 bg-(--primary) font-semibold text-xl cursor-pointer text-black">
+                    Vamos conversar!
+                </button>
+            </article>
+
+            <aside>
+                <img src="/assets/images/Guilherme.jpg" alt="Foto do Desenvolvedor" class="rounded-full w-lg h-auto">
+            </aside>
+        </main>
+
+        <article class="about">
+            <h2>Sobre mim</h2>
+
+            <p class="text-xl text-pretty font-light w-1/2">
                 Tenho experiência nas linguagens RUBY e PHP, com habilidades voltadas para a construção de sites
                 eficientes
-                e robustos. Sou especializado em todo o ciclo de desenvolvimento, desde o levantamento de requisitos até
+                e robustos. Sou especializado em todo o ciclo de desenvolvimento, desde o levantamento de
+                requisitos
+                até
                 a
                 publicação, aplicando a arquitetura MVC e implementando API's RESTful/JSON. Tenho um compromisso
                 constante
-                com o aprendizado e aprimoramento na área de desenvolvimento de software, buscando evoluir tanto em
+                com o aprendizado e aprimoramento na área de desenvolvimento de software, buscando evoluir tanto
+                em
                 projetos
-                web quanto em outras áreas de desenvolvimento para agregar valor e contribuir de maneira significativa
+                web quanto em outras áreas de desenvolvimento para agregar valor e contribuir de maneira
+                significativa
                 nos
                 ambientes em que atuo.
             </p>
-        </section>
-
-        <div class="grid-mash"></div>
-    </main>
-
+        </article>
+    </div>
     <script type="module" src="/src/main.js"></script>
 </body>
 
