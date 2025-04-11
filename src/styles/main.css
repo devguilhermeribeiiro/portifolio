@@ -11,11 +11,11 @@ body {
 }
 
 .hero {
-    @apply h-full w-full flex flex-row items-start justify-between mt-24 mb-24;
+    @apply h-full w-full flex flex-row items-center justify-between p-24;
 }
 
 .header {
-    @apply flex flex-row items-center justify-between mt-12 mb-12 z-20;
+    @apply flex flex-row items-center justify-between pt-12 pb-12 pl-24 pr-24 z-20;
 }
 
 .navbar {
@@ -31,5 +31,26 @@ body {
 }
 
 .about {
-    @apply h-screen w-full mt-48;
+    @apply h-screen w-full p-24 flex flex-col gap-18 items-center;
 }
+
+.skills {
+    width: 100%;
+
+    li {
+        @apply flex flex-row gap-18 flex-wrap overflow-x-hidden justify-center;
+    }
+    
+    a {
+        @apply flex flex-col gap-4 items-center;
+    }
+
+    p {
+        @apply font-semibold text-lg;
+    }
+
+    svg {
+        @apply w-24 h-24;
+    }
+}
+
